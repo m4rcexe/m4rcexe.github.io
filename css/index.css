@@ -1,0 +1,51 @@
+/* NAVBAR */
+#nav-bar
+{
+	position: loose;
+	top: 0;
+	z-index: 10;
+}
+.navbar
+{
+	padding: 5 !important;
+}
+.navbar-toggler
+{
+	outline: none !important;
+}
+
+.navbar-brand
+{
+	font-size: 20px;
+	padding-left: 35px;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+/*
+ * Base structure
+ */
+
+body {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+.main {
+  background-image: url('images/test.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  
+}
